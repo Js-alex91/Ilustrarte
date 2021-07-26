@@ -1,0 +1,49 @@
+
+.cursor{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+   
+
+    
+   
+   
+
+    box-shadow: 0 0 140px 70px #18d26e;
+    border-radius: 100%;
+    z-index: -99999999;
+
+
+}
+
+
+
+.cursor span{
+  position: relative;
+  display: block;
+  top: 0;
+  right: 0;
+  
+  box-shadow: 0 0 70px 40px #18d26e;
+
+  border-radius: 100%;
+  background: #18d26e;
+
+  z-index: 999;
+  z-index: -99999999;
+}
+.cursor.cgreen{
+  background: #18d26e;
+
+  border-color: #18d26e;
+
+  box-shadow: 0 0 144px 109px #18d26e;
+  z-index: -99999999;
+}
+.cursor.cgreen span{
+  box-shadow: 0 0 60px 40px #18d26e;
+  background: #18d26e;
+  z-index: -99999999;
+}
+
+
